@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Google W3Schools Deprecator
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/lionel-rowe/userscripts
 // @version      0.1
 // @description  Adds "deprecated" styling to W3Schools results in Google searches
 // @author       Lionel Rowe

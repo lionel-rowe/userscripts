@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Password Viewer
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/lionel-rowe/userscripts
 // @version      0.1
 // @description  View passwords
-// @author       You
+// @author       Lionel Rowe
 // @match        http*://*
 // @include http://*
 // @include https://*
