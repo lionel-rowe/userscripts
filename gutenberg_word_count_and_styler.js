@@ -3,7 +3,7 @@
 // @namespace    https://github.com/lionel-rowe/userscripts
 // @version      0.1
 // @description  Add word count to Gutenberg HTML display and improve styling
-// @author       Lionel Rowe
+// @author       lionel.rowe@gmail.com
 // @match        http://www.gutenberg.org/files/*
 // @grant        none
 // ==/UserScript==

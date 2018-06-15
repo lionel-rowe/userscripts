@@ -3,7 +3,7 @@
 // @namespace    https://github.com/lionel-rowe/userscripts
 // @version      0.1
 // @description  Adds "deprecated" styling to W3Schools results in Google searches
-// @author       Lionel Rowe
+// @author       lionel.rowe@gmail.com
 // @match        https://www.google.com.tw/*
 // @include      https://www.google.*
 // @grant        none

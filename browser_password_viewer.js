@@ -3,7 +3,7 @@
 // @namespace    https://github.com/lionel-rowe/userscripts
 // @version      0.1
 // @description  View passwords
-// @author       Lionel Rowe
+// @author       lionel.rowe@gmail.com
 // @match        http*://*
 // @include http://*
 // @include https://*
