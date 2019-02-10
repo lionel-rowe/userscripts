@@ -18,16 +18,16 @@ scripts.each do |script|
 
   title = script[:name]
 
+  src_filename = title.chomp.downcase.gsub(/[^a-z]/, '-') + '.js'
+
   md << "## #{CGI::escapeHTML(title)}\n\n"
-  md << "_#{CGI::escapeHTML(desc)}_\n\n"
-  md << <<~HTML
-    <details>
-      <summary>View Source</summary>
-      <pre><code>
-    #{CGI::escapeHTML(src)}
-      </code></pre>
-    </details>\n\n
-  HTML
+  md << "_#{CGI::escapeHTML(desc)}_ [[source](/src/#{src_filename})]\n\n"
+
+
+  File.open(File.join(File.dirname(__FILE__), 'src', src_filename), 'w') do |f|
+    f.write(src)
+  end
+
 end
 
 
