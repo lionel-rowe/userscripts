@@ -1,0 +1,235 @@
+{
+  "created_by": "Tampermonkey",
+  "version": "1",
+  "scripts": [
+    {
+      "name": "Password Viewer",
+      "options": {
+        "awareOfChrome": false,
+        "check_for_updates": true,
+        "comment": null,
+        "compat_arrayleft": false,
+        "compat_foreach": false,
+        "compat_forvarin": false,
+        "compat_metadata": false,
+        "compat_uW_gmonkey": false,
+        "compat_wrappedjsobject": false,
+        "compatopts_for_requires": true,
+        "noframes": null,
+        "override": {
+          "merge_connects": true,
+          "merge_excludes": true,
+          "merge_includes": true,
+          "merge_matches": true,
+          "orig_connects": [],
+          "orig_excludes": [],
+          "orig_includes": [
+            "http://*",
+            "https://*"
+          ],
+          "orig_matches": [
+            "http*://*"
+          ],
+          "orig_noframes": null,
+          "orig_run_at": "document-idle",
+          "use_blockers": [],
+          "use_connects": [],
+          "use_excludes": [],
+          "use_includes": [],
+          "use_matches": []
+        },
+        "run_at": null
+      },
+      "storage": {
+        "ts": 1540938017387,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 1,
+      "uuid": "00c77013-078f-418a-a50c-15919f8d7116",
+      "source": "Ci8vID09VXNlclNjcmlwdD09Ci8vIEBuYW1lICAgICAgICAgUGFzc3dvcmQgVmlld2VyCi8vIEBuYW1lc3BhY2UgICAgaHR0cHM6Ly9naXRodWIuY29tL2xpb25lbC1yb3dlL3VzZXJzY3JpcHRzCi8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgVmlldyBwYXNzd29yZHMKLy8gQGF1dGhvciAgICAgICBsaW9uZWwucm93ZUBnbWFpbC5jb20KLy8gQG1hdGNoICAgICAgICBodHRwKjovLyoKLy8gQGluY2x1ZGUgaHR0cDovLyoKLy8gQGluY2x1ZGUgaHR0cHM6Ly8qCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAgICd1c2Ugc3RyaWN0JzsKCiAgICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigna2V5ZG93bicsIGUgPT4gewogICAgICAgIGlmIChlLnRhcmdldC50eXBlID09PSAncGFzc3dvcmQnICYmIGUua2V5ID09PSAnLycgJiYgZS5jdHJsS2V5ID09PSB0cnVlKSB7CiAgICAgICAgICBlLnRhcmdldC50eXBlID0gJ3RleHQnOwogICAgICAgICAgICBlLnRhcmdldC5hZGRFdmVudExpc3RlbmVyKCdrZXl1cCcsIGtleVVwTGlzdGVuZXIpOwogICAgICAgIH0KICAgIH0pOwoKICAgIGZ1bmN0aW9uIGtleVVwTGlzdGVuZXIoZSkgewogICAgICAgIGUudGFyZ2V0LnR5cGUgPSAncGFzc3dvcmQnOwogICAgICAgIGUudGFyZ2V0LnJlbW92ZUV2ZW50TGlzdGVuZXIoJ2tleXVwJywga2V5VXBMaXN0ZW5lcik7CiAgICB9Cgp9KSgpOw=="
+    },
+    {
+      "name": "Marquee Killer",
+      "options": {
+        "awareOfChrome": false,
+        "check_for_updates": true,
+        "comment": null,
+        "compat_arrayleft": false,
+        "compat_foreach": false,
+        "compat_forvarin": false,
+        "compat_metadata": false,
+        "compat_uW_gmonkey": false,
+        "compat_wrappedjsobject": false,
+        "compatopts_for_requires": true,
+        "noframes": null,
+        "override": {
+          "merge_connects": true,
+          "merge_excludes": true,
+          "merge_includes": true,
+          "merge_matches": true,
+          "orig_connects": [],
+          "orig_excludes": [],
+          "orig_includes": [
+            "http://*",
+            "https://*"
+          ],
+          "orig_matches": [
+            "http*://*"
+          ],
+          "orig_noframes": null,
+          "orig_run_at": "document-idle",
+          "use_blockers": [],
+          "use_connects": [],
+          "use_excludes": [],
+          "use_includes": [],
+          "use_matches": []
+        },
+        "run_at": null
+      },
+      "storage": {
+        "ts": 1549550017454,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 2,
+      "uuid": "587f2960-80cf-40c5-b101-3e2c3d5cd4b6",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBNYXJxdWVlIEtpbGxlcgovLyBAbmFtZXNwYWNlICAgIGh0dHBzOi8vZ2l0aHViLmNvbS9saW9uZWwtcm93ZS91c2Vyc2NyaXB0cwovLyBAdmVyc2lvbiAgICAgIDAuMQovLyBAZGVzY3JpcHRpb24gIEtpbGwgbWFycXVlZXMKLy8gQGF1dGhvciAgICAgICBsaW9uZWwucm93ZUBnbWFpbC5jb20KLy8gQG1hdGNoICAgICAgICBodHRwKjovLyoKLy8gQGluY2x1ZGUgaHR0cDovLyoKLy8gQGluY2x1ZGUgaHR0cHM6Ly8qCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCihmdW5jdGlvbigpIHsKICAndXNlIHN0cmljdCc7CgogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ21hcnF1ZWUnKS5mb3JFYWNoKGVsID0+IHsKCiAgY29uc3QgZGl2ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZGl2Jyk7CgogIGRpdi5pbm5lckhUTUwgPSBgPGRlbD5NYXJxdWVlPC9kZWw+ICR7ZWwuaW5uZXJIVE1MfWA7CgogIGVsLnBhcmVudE5vZGUucmVwbGFjZUNoaWxkKGRpdiwgZWwpOwoKfSk7Cn0pKCk7"
+    },
+    {
+      "name": "Global Loop Limiter",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [
+            "http://*",
+            "https://*"
+          ],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "http*://*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1549809536787,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 3,
+      "uuid": "9f39c650-8c6e-4706-8520-2c0971885c54",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBHbG9iYWwgTG9vcCBMaW1pdGVyCi8vIEBuYW1lc3BhY2UgICAgaHR0cHM6Ly9naXRodWIuY29tL2xpb25lbC1yb3dlL3VzZXJzY3JpcHRzCi8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgTGltaXQgbG9vcHMKLy8gQGF1dGhvciAgICAgICBsaW9uZWwucm93ZUBnbWFpbC5jb20KLy8gQG1hdGNoICAgICAgICBodHRwKjovLyoKLy8gQGluY2x1ZGUgaHR0cDovLyoKLy8gQGluY2x1ZGUgaHR0cHM6Ly8qCi8vIEBncmFudCAgICAgICAgbm9uZQovLyA9PS9Vc2VyU2NyaXB0PT0KCi8qIFVzYWdlOgoKd2hpbGUgKGkgPCAxMDAgJiYgbGltaXRMb29wKCkpIHsKICBjb25zb2xlLmxvZyhpKTsKICAvLyBmb3Jnb3QgdG8gaW5jcmVtZW50IGBpYCAtIHRocm93cyBlcnJvciBkdWUgdG8gaW5maW5pdGUgbG9vcAp9CgoqLwoKKGZ1bmN0aW9uKCkgewogICd1c2Ugc3RyaWN0JzsKCiAgY29uc3QgZ2xvYmFsTG9vcExpbWl0ZXIgPSBTeW1ib2woJ2dsb2JhbExvb3BMaW1pdGVyJyk7CgogIHdpbmRvd1tnbG9iYWxMb29wTGltaXRlcl0gPSAwOwoKICB3aW5kb3cubGltaXRMb29wID0gKG1heEl0ZXJhdGlvbnMgPSAxMDAwKSA9PiB7CiAgICBpZiAoKyt3aW5kb3dbZ2xvYmFsTG9vcExpbWl0ZXJdID4gbWF4SXRlcmF0aW9ucykgewogICAgICB3aW5kb3dbZ2xvYmFsTG9vcExpbWl0ZXJdID0gMDsKICAgICAgdGhyb3cgbmV3IFJhbmdlRXJyb3IoYE1heCBpdGVyYXRpb24gJHttYXhJdGVyYXRpb25zfSByZWFjaGVkIOKAlCBwb3NzaWJsZSBpbmZpbml0ZSBsb29wIGRldGVjdGVkYCk7CiAgICB9IGVsc2UgewogICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICB9Cgp9KSgpOw=="
+    },
+    {
+      "name": "Discourse Raw Quoter",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "https://forum.freecodecamp.org/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1549811188482,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 4,
+      "uuid": "b6d474cd-c9b7-450e-8bb4-5d3d70cd4b18",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBEaXNjb3Vyc2UgUmF3IFF1b3RlcgovLyBAbmFtZXNwYWNlICAgIGh0dHBzOi8vZ2l0aHViLmNvbS9saW9uZWwtcm93ZS91c2Vyc2NyaXB0cwovLyBAdmVyc2lvbiAgICAgIDAuMQovLyBAZGVzY3JpcHRpb24gIFF1b3RlIHJhdyAobWFya2Rvd24pIGNvbnRlbnQgb24gRGlzY291cnNlIGZvcnVtLgovLyBAYXV0aG9yICAgICAgIExpb25lbCBSb3dlCi8vIEBtYXRjaCAgICAgICAgaHR0cHM6Ly9mb3J1bS5mcmVlY29kZWNhbXAub3JnLyoKLy8gQGdyYW50ICAgICAgICBub25lCi8vID09L1VzZXJTY3JpcHQ9PQoKKGZ1bmN0aW9uKCkgewogICd1c2Ugc3RyaWN0JzsKICBmdW5jdGlvbiBxdW90ZVJhdyhwb3N0TnVtYmVyKSB7CgogICAgaWYgKCFwb3N0TnVtYmVyKSB7CiAgICAgIHBvc3ROdW1iZXIgPSAxOwogICAgfQoKICAgIGNvbnN0IHhociA9IG5ldyBYTUxIdHRwUmVxdWVzdCgpOwoKICAgIHhoci5vbnJlYWR5c3RhdGVjaGFuZ2UgPSBmdW5jdGlvbigpIHsKCiAgICAgIGlmICh0aGlzLnJlYWR5U3RhdGUgPT09IDQgJiYgdGhpcy5zdGF0dXMgPT09IDIwMCkgewogICAgICAgIGNvbnN0IHBvc3QgPSBKU09OLnBhcnNlKHhoci5yZXNwb25zZVRleHQpCiAgICAgICAgLnBvc3Rfc3RyZWFtCiAgICAgICAgLnBvc3RzCiAgICAgICAgLmZpbHRlcihlbCA9PiBlbC5wb3N0X251bWJlciA9PT0gcG9zdE51bWJlcilbMF07CgogICAgICAgIGNvbnN0IHJlcGx5ID0gYFtxdW90ZT0iJHtwb3N0LnVzZXJuYW1lfSwgcG9zdDoke3Bvc3QucG9zdF9udW1iZXJ9LCB0b3BpYzoke3Bvc3QudG9waWNfaWR9Il0KJHtwb3N0LnJhd30KWy9xdW90ZV1gOwoKICAgICAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKGAjcG9zdF8ke3Bvc3ROdW1iZXJ9IC5hY3Rpb25zIC5yZXBseWApLmNsaWNrKCk7CgogICAgICAgIHNldFRpbWVvdXQoZnVuY3Rpb24oKSB7CiAgICAgICAgICBjb25zdCByZXBseUJveCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5kLWVkaXRvci1pbnB1dCcpOwogICAgICAgICAgcmVwbHlCb3gudmFsdWUgPSByZXBseUJveC52YWx1ZSA/IGAke3JlcGx5fVxuXG4ke3JlcGx5Qm94LnZhbHVlfWAgOiByZXBseTsKICAgICAgICB9LCA1MCk7CiAgICAgIH0KICAgIH07CgogICAgeGhyLm9wZW4oJ0dFVCcsIGAke3dpbmRvdy5sb2NhdGlvbi5ocmVmLnJlcGxhY2UoLyhcZCspKFwvXGQqKT8kLywgYCQxXC8ke3Bvc3ROdW1iZXJ9YCl9Lmpzb24/aW5jbHVkZV9yYXc9dHJ1ZWAsIHRydWUpOwogICAgeGhyLnNlbmQobnVsbCk7CgogIH0KCiAgZnVuY3Rpb24gYWRkUmF3UXVvdGVCdXR0b24oZWwpIHsKICAgIGNvbnN0IHJhd1F1b3RlQnV0dG9uID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYnV0dG9uJyk7CiAgICByYXdRdW90ZUJ1dHRvbi5pbm5lckhUTUwgPSBgPGkgY2xhc3M9ImZhIGZhLWNvZGUgZC1pY29uIGQtaWNvbi1yZXBseSIgYXJpYS1oaWRkZW49InRydWUiPjwvaT4KICA8c3BhbiBjbGFzcz0iZC1idXR0b24tbGFiZWwiPlJhdyBRdW90ZTwvc3Bhbj5gOwoKICAgIHJhd1F1b3RlQnV0dG9uLnNldEF0dHJpYnV0ZSgnYXJpYS1sYWJlbCcsICdxdW90ZSByYXcgbWFya2Rvd24nKTsKICAgIHJhd1F1b3RlQnV0dG9uLnNldEF0dHJpYnV0ZSgndGl0bGUnLCAncXVvdGUgcmF3IG1hcmtkb3duJyk7CiAgICByYXdRdW90ZUJ1dHRvbi5jbGFzc0xpc3QuYWRkKCd3aWRnZXQtYnV0dG9uJywgJ2J0bi1mbGF0JywgJ2NyZWF0ZScsICdmYWRlLW91dCcsICdidG4taWNvbi10ZXh0JywgJ3Jhdy1xdW90ZS1idXR0b24nKTsKCiAgICByYXdRdW90ZUJ1dHRvbi5vbmNsaWNrID0gKCkgPT4gcXVvdGVSYXcoK2VsLnF1ZXJ5U2VsZWN0b3IoJy5zaGFyZScpLmdldEF0dHJpYnV0ZSgnZGF0YS1wb3N0LW51bWJlcicpKTsKCiAgICBlbC5hcHBlbmRDaGlsZChyYXdRdW90ZUJ1dHRvbik7CiAgfQoKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcuYWN0aW9ucycpLmZvckVhY2goZWwgPT4gYWRkUmF3UXVvdGVCdXR0b24oZWwpKTsKCiAgLy9vYnNlcnZlIGZvciBuZXcgcG9zdHMgYmVpbmcgYWRkZWQKCiAgY29uc3QgdGFyZ2V0ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLmVtYmVyLXZpZXcnKTsKICBjb25zdCBvYnNlcnZlciA9IG5ldyBNdXRhdGlvbk9ic2VydmVyKGZ1bmN0aW9uKG11dGF0aW9ucykgewogICAgbXV0YXRpb25zLmZvckVhY2goZnVuY3Rpb24obXV0YXRpb24pIHsKICAgICAgbXV0YXRpb24uYWRkZWROb2Rlcy5mb3JFYWNoKGZ1bmN0aW9uKGVsKSB7CiAgICAgICAgaWYgKGVsLm5vZGVUeXBlID09PSAxKSB7CiAgICAgICAgICBjb25zdCBhY3Rpb25zID0gZWwucXVlcnlTZWxlY3RvckFsbCgnLmFjdGlvbnMnKTsKICAgICAgICAgIGlmIChhY3Rpb25zKSB7CiAgICAgICAgICAgIGFjdGlvbnMuZm9yRWFjaChmdW5jdGlvbihlbCkgewogICAgICAgICAgICAgIGlmICghZWwucXVlcnlTZWxlY3RvcignLnJhdy1xdW90ZS1idXR0b24nKSkgewogICAgICAgICAgICAgICAgYWRkUmF3UXVvdGVCdXR0b24oZWwpOwogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7CiAgICAgICAgICB9CiAgICAgICAgfQogICAgICB9KTsKICAgIH0pOwogIH0pOwoKICBjb25zdCBjb25maWcgPSB7Y2hpbGRMaXN0OiB0cnVlLCBzdWJ0cmVlOiB0cnVlLCBhdHRyaWJ1dGVzOiBmYWxzZSwgY2hhcmFjdGVyRGF0YTogdHJ1ZX07CgogIG9ic2VydmVyLm9ic2VydmUodGFyZ2V0LCBjb25maWcpOwoKfSkoKTsK"
+    },
+    {
+      "name": "Gutenberg Word Count and Styler",
+      "options": {
+        "check_for_updates": true,
+        "comment": null,
+        "compatopts_for_requires": true,
+        "compat_wrappedjsobject": false,
+        "compat_metadata": false,
+        "compat_foreach": false,
+        "compat_arrayleft": false,
+        "compat_uW_gmonkey": false,
+        "compat_forvarin": false,
+        "noframes": null,
+        "awareOfChrome": false,
+        "run_at": null,
+        "override": {
+          "use_includes": [],
+          "orig_includes": [],
+          "merge_includes": true,
+          "use_matches": [],
+          "orig_matches": [
+            "http://www.gutenberg.org/files/*"
+          ],
+          "merge_matches": true,
+          "use_excludes": [],
+          "orig_excludes": [],
+          "merge_excludes": true,
+          "use_connects": [],
+          "merge_connects": true,
+          "use_blockers": [],
+          "orig_run_at": "document-idle",
+          "orig_noframes": null,
+          "orig_connects": []
+        }
+      },
+      "storage": {
+        "ts": 1549811309303,
+        "data": {}
+      },
+      "enabled": true,
+      "position": 5,
+      "uuid": "c5c0effc-8e9d-42c2-8fad-862fb3f6310c",
+      "source": "Ly8gPT1Vc2VyU2NyaXB0PT0KLy8gQG5hbWUgICAgICAgICBHdXRlbmJlcmcgV29yZCBDb3VudCBhbmQgU3R5bGVyCi8vIEBuYW1lc3BhY2UgICAgaHR0cHM6Ly9naXRodWIuY29tL2xpb25lbC1yb3dlL3VzZXJzY3JpcHRzCi8vIEB2ZXJzaW9uICAgICAgMC4xCi8vIEBkZXNjcmlwdGlvbiAgQWRkIHdvcmQgY291bnQgdG8gR3V0ZW5iZXJnIEhUTUwgZGlzcGxheSBhbmQgaW1wcm92ZSBzdHlsaW5nCi8vIEBhdXRob3IgICAgICAgbGlvbmVsLnJvd2VAZ21haWwuY29tCi8vIEBtYXRjaCAgICAgICAgaHR0cDovL3d3dy5ndXRlbmJlcmcub3JnL2ZpbGVzLyoKLy8gQGdyYW50ICAgICAgICBub25lCi8vID09L1VzZXJTY3JpcHQ9PQoKKGZ1bmN0aW9uKCkgewogICd1c2Ugc3RyaWN0JzsKCiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgncHJlJykuZm9yRWFjaChmdW5jdGlvbihlbCkgewogICAgZWwuc3R5bGUuZm9udFNpemUgPSAnMWVtJzsKICAgIGVsLnN0eWxlLmZvbnRGYW1pbHkgPSAnR2VvcmdpYSwgc2VyaWYnOwogICAgZWwuc3R5bGUubGluZUhlaWdodCA9ICcxLjVlbSc7CiAgICBlbC5zdHlsZS5mb250U3R5bGUgPSAnbm9ybWFsJzsKICB9KTsKCiAgY29uc3QgYm9keSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2JvZHknKTsKCiAgY29uc3Qgd29yZENvdW50ID0gYm9keS50ZXh0Q29udGVudC5zcGxpdCgvXHMrLykubGVuZ3RoOwoKICBjb25zdCB3Y0RpdiA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpOwogIHdjRGl2LnN0eWxlLmZvbnRXZWlnaHQgPSAnYm9sZCc7CiAgd2NEaXYudGV4dENvbnRlbnQgPSBgQXBwcm94aW1hdGUgd29yZCBjb3VudDogJHt3b3JkQ291bnR9YDsKCiAgYm9keS5pbnNlcnRCZWZvcmUod2NEaXYsIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ3ByZScpKTsKCn0pKCk7Cg=="
+    }
+  ]
+}

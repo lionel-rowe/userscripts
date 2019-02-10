@@ -1,0 +1,83 @@
+{
+  "edition.cnn.com": {
+    "_enabled": true,
+    "_rules": {
+      "[class*='texttrack']": {
+        "color": "'red' ",
+        "font-family": "'Ubuntu', 'Calibri', 'Arial', sans-serif"
+      }
+    }
+  },
+  "kitt.lewagon.com": {
+    "_enabled": true,
+    "_rules": {
+      ".alert-help-your-buddy.alert.alert-dismissible": {
+        "position": "static"
+      },
+      ".ask-for-career_survey.sticky-top": {
+        "display": "none"
+      },
+      ".syllabus-cover": {
+        "display": "none"
+      }
+    }
+  },
+  "medium.com": {
+    "_enabled": true,
+    "_rules": {
+      ".js-stickyFooter": {
+        "display": "none"
+      },
+      ".metabar": {
+        "comment0": {
+          "comment": "/* display: none; */"
+        },
+        "width": "200vw",
+        "zoom": "50%"
+      }
+    }
+  },
+  "news.ycombinator.com": {
+    "_enabled": true,
+    "_rules": {
+      "body>center": {
+        "padding": "0 200px 0 200px"
+      }
+    }
+  },
+  "www.google.com, www.google.co.uk": {
+    "_enabled": true,
+    "_rules": {
+      "a[href*='w3schools.com']": {
+        "color": "#aaa",
+        "pointer-events": "none"
+      },
+      "a[href*='w3schools.com'] h3::after": {
+        "content": "' 👎'",
+        "pointer-events": "initial"
+      },
+      "li.ads-ad": {
+        "background": "#ccc"
+      }
+    }
+  },
+  "www.ruby-forum.com": {
+    "_enabled": true,
+    "_rules": {
+      ".modal-outer-container": {
+        "display": "none"
+      },
+      "div.modal-backdrop.in": {
+        "display": "none"
+      }
+    }
+  },
+  "www.youtube.com": {
+    "_enabled": true,
+    "_rules": {
+      ".ytp-ce-element": {
+        "display": "none"
+      }
+    }
+  }
+}
